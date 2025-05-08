@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = ({ darkMode }) => {
   const handleDownloadCV = () => {
-    const fileUrl = '/CV_Gabrie_Gabrielli_Modelo_Harvard.docx';
+    const fileUrl = '/cv.docx';
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'CV_Gabrie_Gabrielli_Modelo_Harvard.docx';
