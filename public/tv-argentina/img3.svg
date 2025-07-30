@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Fondo con gradiente azul celeste y blanco (colores de la bandera argentina) -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000033" />
+      <stop offset="100%" style="stop-color:#000066" />
+    </linearGradient>
+    
+    <!-- Gradiente para tarjetas -->
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#75AADB" />
+      <stop offset="100%" style="stop-color:#000066" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo principal -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Barra de navegación -->
+  <rect width="800" height="60" fill="#000033" />
+  
+  <!-- Logo TV Argentina -->
+  <text x="30" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF">TV Argentina Online</text>
+  
+  <!-- Botones de navegación -->
+  <text x="300" y="40" font-family="Arial" font-size="16" fill="#FFFFFF">Canales</text>
+  <text x="400" y="40" font-family="Arial" font-size="16" fill="#FFFFFF">En Vivo</text>
+  <text x="500" y="40" font-family="Arial" font-size="16" fill="#FFFFFF">Programación</text>
+  
+  <!-- Botón de usuario -->
+  <circle cx="700" cy="30" r="20" fill="#75AADB" />
+  <text x="700" y="35" font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
+  
+  <!-- Título de sección -->
+  <text x="400" y="100" font-family="Arial" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Categorías de Canales</text>
+  
+  <!-- Categorías (tarjetas) -->
+  <!-- Categoría 1: Nacionales -->
+  <rect x="100" y="150" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="190" y="200" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Nacionales</text>
+  <text x="190" y="225" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">12 canales</text>
+  
+  <!-- Categoría 2: Noticias -->
+  <rect x="310" y="150" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="400" y="200" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Noticias</text>
+  <text x="400" y="225" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">8 canales</text>
+  
+  <!-- Categoría 3: Deportes -->
+  <rect x="520" y="150" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="610" y="200" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Deportes</text>
+  <text x="610" y="225" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">15 canales</text>
+  
+  <!-- Categoría 4: Entretenimiento -->
+  <rect x="100" y="300" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="190" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Entretenimiento</text>
+  <text x="190" y="375" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">20 canales</text>
+  
+  <!-- Categoría 5: Documentales -->
+  <rect x="310" y="300" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="400" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Documentales</text>
+  <text x="400" y="375" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">6 canales</text>
+  
+  <!-- Categoría 6: Infantiles -->
+  <rect x="520" y="300" width="180" height="120" rx="10" fill="url(#cardGradient)" stroke="#FFD700" stroke-width="2" />
+  <text x="610" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Infantiles</text>
+  <text x="610" y="375" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">10 canales</text>
+  
+  <!-- Sección de canales populares -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Canales Populares</text>
+  
+  <!-- Barra de canales populares -->
+  <rect x="100" y="480" width="600" height="80" rx="10" fill="#000033" stroke="#75AADB" stroke-width="1" />
+  
+  <!-- Miniaturas de canales populares -->
+  <!-- Canal 1 -->
+  <circle cx="150" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="150" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">C13</text>
+  
+  <!-- Canal 2 -->
+  <circle cx="220" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="220" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TLF</text>
+  
+  <!-- Canal 3 -->
+  <circle cx="290" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="290" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TVP</text>
+  
+  <!-- Canal 4 -->
+  <circle cx="360" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="360" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TN</text>
+  
+  <!-- Canal 5 -->
+  <circle cx="430" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="430" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">C5N</text>
+  
+  <!-- Canal 6 -->
+  <circle cx="500" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="500" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AMR</text>
+  
+  <!-- Canal 7 -->
+  <circle cx="570" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="570" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ESPN</text>
+  
+  <!-- Canal 8 -->
+  <circle cx="640" cy="520" r="25" fill="#FFFFFF" opacity="0.2" />
+  <text x="640" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TNT</text>
+  
+  <!-- Sol de Mayo (símbolo argentino) -->
+  <circle cx="400" y="570" r="15" fill="#FFD700" />
+  <g fill="#FFD700">
+    <!-- Rayos del sol -->
+    <polygon points="400,545 405,555 400,555" />
+    <polygon points="420,550 415,560 410,555" />
+    <polygon points="430,565 420,565 415,560" />
+    <polygon points="425,585 415,575 420,570" />
+    <polygon points="400,595 400,585 405,580" />
+    <polygon points="380,585 385,575 390,580" />
+    <polygon points="370,565 380,565 385,570" />
+    <polygon points="375,550 385,560 380,565" />
+  </g>
+</svg>

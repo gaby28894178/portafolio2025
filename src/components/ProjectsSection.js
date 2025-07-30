@@ -52,6 +52,15 @@ const ProjectsSection = ({ darkMode }) => {
       description: 'Plataforma de gestión de membresías, clases y entrenadores para gimnasios.',
       demoUrl: 'https://genuine-marigold-696f21.netlify.app/',
       codeUrl: 'https://github.com/gaby28894178/001-barbershop.git'
+    },
+    {
+      title: 'TV Argentina Online',
+      emoji: '/tv-argentina/1.png',
+      imgHover: '/tv-argentina/2.png',
+      gallery: ['/tv-argentina/1.png', '/tv-argentina/2.png', '/tv-argentina/3.png', '/tv-argentina/img4.svg', '/tv-argentina/img5.svg'],
+      description: 'Plataforma de streaming en línea para canales de televisión argentinos con diseño inspirado en la bandera argentina.',
+      demoUrl: 'https://tv-ip-12025.onrender.com/',
+      codeUrl: 'https://github.com/gaby28894178/tv-ip-12025.git'
     }
   ];
 

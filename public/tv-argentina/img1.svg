@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Fondo con gradiente azul celeste y blanco (colores de la bandera argentina) -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#75AADB" />
+      <stop offset="50%" style="stop-color:#FFFFFF" />
+      <stop offset="100%" style="stop-color:#75AADB" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo principal -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Barra de navegación -->
+  <rect width="800" height="60" fill="#000033" />
+  
+  <!-- Logo TV Argentina -->
+  <text x="30" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF">TV Argentina Online</text>
+  
+  <!-- Botón de login -->
+  <rect x="650" y="15" width="120" height="30" rx="15" fill="#FFD700" />
+  <text x="685" y="35" font-family="Arial" font-size="14" font-weight="bold" fill="#000033" text-anchor="middle">Iniciar Sesión</text>
+  
+  <!-- Contenedor principal -->
+  <rect x="50" y="100" width="700" height="450" rx="10" fill="#000033" opacity="0.9" />
+  
+  <!-- Título de sección -->
+  <text x="400" y="140" font-family="Arial" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Televisión en vivo</text>
+  
+  <!-- Canales de TV (tarjetas) -->
+  <!-- Canal 1 -->
+  <rect x="80" y="180" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="90" y="190" width="180" height="100" fill="#75AADB" />
+  <text x="180" y="240" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Canal 13</text>
+  <text x="180" y="310" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Canal 2 -->
+  <rect x="300" y="180" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="310" y="190" width="180" height="100" fill="#75AADB" />
+  <text x="400" y="240" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Telefe</text>
+  <text x="400" y="310" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Canal 3 -->
+  <rect x="520" y="180" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="530" y="190" width="180" height="100" fill="#75AADB" />
+  <text x="620" y="240" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TV Pública</text>
+  <text x="620" y="310" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Canal 4 -->
+  <rect x="80" y="350" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="90" y="360" width="180" height="100" fill="#75AADB" />
+  <text x="180" y="410" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TN</text>
+  <text x="180" y="480" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Canal 5 -->
+  <rect x="300" y="350" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="310" y="360" width="180" height="100" fill="#75AADB" />
+  <text x="400" y="410" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">C5N</text>
+  <text x="400" y="480" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Canal 6 -->
+  <rect x="520" y="350" width="200" height="150" rx="5" fill="#FFFFFF" opacity="0.9" />
+  <rect x="530" y="360" width="180" height="100" fill="#75AADB" />
+  <text x="620" y="410" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">América TV</text>
+  <text x="620" y="480" font-family="Arial" font-size="14" fill="#000033" text-anchor="middle">Ver ahora</text>
+  
+  <!-- Sol de Mayo (símbolo argentino) -->
+  <circle cx="400" y="570" r="15" fill="#FFD700" />
+  <g fill="#FFD700">
+    <!-- Rayos del sol -->
+    <polygon points="400,545 405,555 400,555" />
+    <polygon points="420,550 415,560 410,555" />
+    <polygon points="430,565 420,565 415,560" />
+    <polygon points="425,585 415,575 420,570" />
+    <polygon points="400,595 400,585 405,580" />
+    <polygon points="380,585 385,575 390,580" />
+    <polygon points="370,565 380,565 385,570" />
+    <polygon points="375,550 385,560 380,565" />
+  </g>
+</svg>
