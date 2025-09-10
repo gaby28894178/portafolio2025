@@ -8,6 +8,15 @@ const ProjectsSection = ({ darkMode }) => {
   const [singleImage, setSingleImage] = useState(null);
 
   const projects = [
+       {
+      title: 'Tienda Shop',
+      emoji: '/tienda shop/0.jpg',
+      imgHover: null,
+      gallery: ['/tienda shop/0.jpg','/tienda shop/1.jpg','/tienda shop/2.jpg','/tienda shop/3.jpg','/tienda shop/4.jpg','/tienda shop/5.jpg'],
+      description: 'Plataforma de shopin.',
+      demoUrl: 'https://trae3pmmio629m-gaby28894178-gabriels-projects-ddae2e36.vercel.app/',
+      codeUrl: 'https://github.com/gaby28894178/3pm-mio-ecommerce.git'
+    },
     {
       title: 'GymPro',
       emoji: '/gym/img1.png',
