@@ -43,7 +43,7 @@ const LayoutHeader = ({ darkMode, toggleDarkMode }) => {
         <nav className={`${isOpen ? 'block' : 'hidden'} md:block absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto ${darkMode ? 'bg-gray-900' : 'bg-white'} shadow-md md:shadow-none`}>
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 p-4 md:p-0">
             <li><a href="#about" className={`block py-2 ${darkMode ? 'text-white hover:text-yellow-300' : 'text-gray-900 hover:text-blue-600'}`}>Sobre mí</a></li>
-            <li><a href="#proyectos" className={`block py-2 ${darkMode ? 'text-white hover:text-yellow-300' : 'text-gray-900 hover:text-blue-600'}`}>Habilidades</a></li>
+            <li><a href="#skills" className={`block py-2 ${darkMode ? 'text-white hover:text-yellow-300' : 'text-gray-900 hover:text-blue-600'}`}>Habilidades</a></li>
             <li><a href="#skills" className={`block py-2 ${darkMode ? 'text-white hover:text-yellow-300' : 'text-gray-900 hover:text-blue-600'}`}>Proyectos</a></li>
             <li><a href="#contact" className={`block py-2 ${darkMode ? 'text-white hover:text-yellow-300' : 'text-gray-900 hover:text-blue-600'}`}>Contacto</a></li>
           </ul>
